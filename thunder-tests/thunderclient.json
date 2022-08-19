@@ -1,0 +1,143 @@
+[
+  {
+    "_id": "b28c1e76-e26a-47b7-b9e8-8505d2417061",
+    "colId": "149794bc-003f-4063-b10b-b9028672dc55",
+    "containerId": "",
+    "name": "get productos",
+    "url": "localhost:8080/api/carrito/2/productos",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-07-15T12:13:57.990Z",
+    "modified": "2022-08-17T13:00:57.510Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "ebe9ef7f-5b21-4854-bcf9-a1ab9d64da82",
+    "colId": "8ee80f79-f0ab-4718-a2b1-06b7e689b3d7",
+    "containerId": "",
+    "name": "listar productos",
+    "url": "localhost:8080/api/productos",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-07-15T12:31:51.494Z",
+    "modified": "2022-07-15T12:32:47.985Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d2136ac4-c9b0-472d-b852-347af5186ee6",
+    "colId": "8ee80f79-f0ab-4718-a2b1-06b7e689b3d7",
+    "containerId": "",
+    "name": "obtener un producto por id",
+    "url": "localhost:8080/api/productos/1",
+    "method": "GET",
+    "sortNum": 20000,
+    "created": "2022-07-15T12:33:22.083Z",
+    "modified": "2022-07-15T12:33:29.442Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d860ac43-7566-4e59-b3bc-7db13f7d673c",
+    "colId": "8ee80f79-f0ab-4718-a2b1-06b7e689b3d7",
+    "containerId": "",
+    "name": "crear productos",
+    "url": "localhost:8080/api/productos",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-07-15T12:41:44.421Z",
+    "modified": "2022-07-15T14:14:13.278Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": " {\n        \"id\": 0,\n        \"timestamp\": \"\",\n        \"nombre\": \"nombre 2\",\n        \"descripcion\": \"descripcion 2\",\n        \"codigo\": \"002\",\n        \"foto\": \"https://picsum.photos/200/300\",\n        \"precio\": 22,\n        \"stock\": 23\n    }",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "887e1e16-8f9d-435e-bd2a-bd9454935b62",
+    "colId": "8ee80f79-f0ab-4718-a2b1-06b7e689b3d7",
+    "containerId": "",
+    "name": "actualizar producto",
+    "url": "localhost:8080/api/productos/1",
+    "method": "PUT",
+    "sortNum": 40000,
+    "created": "2022-07-15T12:46:55.973Z",
+    "modified": "2022-07-15T14:21:01.747Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": " {\n        \"id\": 1,\n        \"timestamp\": \"\",\n        \"nombre\": \"nombre 4 updated\",\n        \"descripcion\": \"descripcion 4\",\n        \"codigo\": \"004\",\n        \"foto\": \"https://picsum.photos/200/300\",\n        \"precio\": 10,\n        \"stock\": 0\n    }",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "10cc3240-a52d-4656-85f5-e0b9fe49a800",
+    "colId": "8ee80f79-f0ab-4718-a2b1-06b7e689b3d7",
+    "containerId": "",
+    "name": "eliminar",
+    "url": "localhost:8080/api/productos/3",
+    "method": "DELETE",
+    "sortNum": 50000,
+    "created": "2022-07-15T13:18:23.333Z",
+    "modified": "2022-07-15T15:05:50.346Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "5f661adf-a370-46ed-afb9-0265efddc696",
+    "colId": "149794bc-003f-4063-b10b-b9028672dc55",
+    "containerId": "",
+    "name": "crear carrito",
+    "url": "localhost:8080/api/carrito",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-07-15T15:14:24.696Z",
+    "modified": "2022-07-15T15:24:16.503Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "86151cc6-a1c5-42f2-9b65-9de986146cda",
+    "colId": "149794bc-003f-4063-b10b-b9028672dc55",
+    "containerId": "",
+    "name": "eliminar carrito",
+    "url": "localhost:8080/api/carrito/1",
+    "method": "DELETE",
+    "sortNum": 30000,
+    "created": "2022-07-15T15:46:57.888Z",
+    "modified": "2022-07-15T15:47:44.111Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "05b5a366-ad7e-4de0-b058-836a19805901",
+    "colId": "149794bc-003f-4063-b10b-b9028672dc55",
+    "containerId": "",
+    "name": "agregar productos al carrito",
+    "url": "localhost:8080/api/carrito/16/productos",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2022-07-15T15:56:40.334Z",
+    "modified": "2022-08-19T00:48:09.071Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "[{\"id\":3},{\"id\":1}]",
+      "form": []
+    },
+    "tests": []
+  }
+]

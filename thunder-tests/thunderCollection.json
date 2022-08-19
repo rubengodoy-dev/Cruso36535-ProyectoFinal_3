@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "149794bc-003f-4063-b10b-b9028672dc55",
+    "colName": "carrito",
+    "created": "2022-07-15T12:13:34.270Z",
+    "sortNum": 10000,
+    "folders": []
+  },
+  {
+    "_id": "8ee80f79-f0ab-4718-a2b1-06b7e689b3d7",
+    "colName": "productos",
+    "created": "2022-07-15T12:31:28.779Z",
+    "sortNum": 20000,
+    "folders": []
+  }
+]
