@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Chat FrontEnd con WebSockets</title>
+  <!-- <script src="/socket.io/socket.io.js"></script> -->
+  <script src="https://cdn.socket.io/4.5.0/socket.io.min.js" integrity="sha384-7EyYLQZgWBi67fBtVxw60/OWl1kjsfrPFcaU0pp0nAh+i8FD068QogUvg85Ewy1k" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <h1>Chat FrontEnd</h1>
+  <div id="messages"></div>
+  <br/>
+  <form onsubmit="return addMessage(this)">
+    <!-- <input type="text" id="username" placeholder="Tu Nombre" >    -->
+    <input type="text" id="texto" placeholder="Cuéntanos algo...">  
+    <input type="submit" value="Enviar!">
+  </form>
+</body>
+</html>
